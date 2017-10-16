@@ -6,8 +6,8 @@ using Newtonsoft.Json;
 namespace NiceHashMiner {
     public class Globals {
         // Constants
-        public static string[] MiningLocation = { "eu", "usa", "hk", "jp", "in", "br" };
-        public static readonly string DemoUser = "3DJhaQaKA6oyRaGyDZYdkZcise4b9DrCi2";
+        public static string[] MiningLocation = { "pool" };
+        public static readonly string DemoUser = "15GuKUCnXaTNYaHb9ZycdUCtztGBH3jPXk";
         // change this if TOS changes
         public static int CURRENT_TOS_VER = 3;
 
@@ -45,7 +45,7 @@ namespace NiceHashMiner {
                 return prefix
                         + name
                         + "." + miningLocation
-                        + ".nicehash.com:"
+                        + ".razorgames.org:"
                         + port;
             }
             return "";
